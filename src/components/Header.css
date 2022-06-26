@@ -1,0 +1,52 @@
+.header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.dot {
+    font-size: 70px;
+    color: #F97373;
+}
+
+@media only screen and (max-width : 375px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+
+    .dot {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    .dot {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:920px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    .dot {
+        font-size: 44px;
+    }
+}
